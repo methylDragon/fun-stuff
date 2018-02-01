@@ -1,6 +1,6 @@
 ## Fun Stuff!
 
-Sometimes I can get bored.
+Sometimes, I can get bored.
 
 Sometimes I can end up channeling that boredom into productive tasks.
 

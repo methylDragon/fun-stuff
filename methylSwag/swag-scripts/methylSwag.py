@@ -42,7 +42,7 @@ def methylSwag():
     print(dragon)
     print(methylDragon)
     print("     -------------------------------------------------------")
-    print("     methylDragon.com\n".center(57))
+    print("     methylDragon.com\n".center(60))
     
 def methylHalf():
     
