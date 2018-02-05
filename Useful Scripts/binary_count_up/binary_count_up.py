@@ -57,6 +57,11 @@ def binary_count_up(target):
 
         # Print binary numbers up to target
         print("\nOk! Fetching binary numbers:")
+
+        # Print 0 to begin with
+        print(0)
+        count += 1
+        
         while str(current).zfill(len(target)) < target:
             current = bin_add(current,1)
             print(current)
@@ -67,11 +72,11 @@ def binary_count_up(target):
     
     # Run as module otherwise
     else:
-        # Initialise binary list
-        number_list = []
-
         # Ensure valid input
         if all((i == "0" or i == "1") for i in target):
+    
+            # Initialise binary list (starting with 0)
+            number_list = [0]
 
             # Increment iterator until it reaches target
 
