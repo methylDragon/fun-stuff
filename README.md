@@ -19,3 +19,9 @@ My own add-on for the fun cowsay program for linux!
 **methylSwag**
 
 Code signatures are fun to use. Especially during hackathons.
+
+
+
+**Useful Scripts**
+
+Just a bunch of random scripts. Go take a look to see what might interest you!
