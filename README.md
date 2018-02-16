@@ -19,3 +19,9 @@ My own add-on for the fun cowsay program for linux!
 **methylSwag**
 
 Code signatures are fun to use. Especially during hackathons.
+
+
+
+**Terminator Settings**
+
+Well... This isn't really a project per-se. But these are the settings I use for my Terminator. Because ain't nobody got time for vanilla Terminal.

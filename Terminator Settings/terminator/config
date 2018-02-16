@@ -1,0 +1,51 @@
+[global_config]
+  handle_size = 2
+  inactive_color_offset = 0.77
+  suppress_multiple_term_dialog = True
+  title_font = Sans 24
+  title_hide_sizetext = True
+  title_receive_bg_color = "#ff0002"
+  title_transmit_bg_color = "#b27300"
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child0]]]
+      order = 0
+      parent = ""
+      position = 111:205
+      size = 1082, 563
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 384
+      type = HPaned
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 281
+      type = VPaned
+    [[[terminal3]]]
+      order = 0
+      parent = child2
+      profile = default
+      type = Terminal
+    [[[terminal4]]]
+      order = 1
+      parent = child2
+      profile = default
+      type = Terminal
+    [[[terminal5]]]
+      order = 1
+      parent = child1
+      profile = default
+      type = Terminal
+[methylDragon]
+[profiles]
+  [[default]]
+    background_color = "#292929"
+    background_darkness = 0.54
+    background_image = ~/.config/terminator/Wallpapers/139192-3d-dragon-free-hd-backgrounds-download-hd-2560x1600.jpg
+    font = Monospace 10
+    foreground_color = "#ffcc66"
+    visible_bell = True
