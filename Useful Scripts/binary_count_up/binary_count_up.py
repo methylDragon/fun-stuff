@@ -51,9 +51,9 @@ def binary_count_up(target):
         count = 0
 
         # Ensure valid input
-        while not all((i == "0" or i == "1") for i in str(target)):
+        while not all((i == "0" or i == "1") for i in str(target)) or target == None:
             print("ERROR: binary_count_up() received non-binary target!")
-            target = input("Enter VALID target number, in binary: ")
+            target = input("Enter VALID target number, in binary: ") or None
 
         # Print binary numbers up to target
         print("\nOk! Fetching binary numbers:")
@@ -105,11 +105,13 @@ if __name__ == "__main__" and target == 0:
     print("This script takes user input to output all binary numbers leading up to a particular one.\n")
 
     # Call for user input
-    target = input("Enter target number, in binary: ")
+    target = input("Enter target number, in binary: ") or None
     # Run core function
     binary_count_up(target)
 
     # Prompt for exit
-    input('''\nPress enter to exit \n                            .     .
+    exit = input('''\nPress [enter] twice to exit \n                            .     .
                          .  |\-^-/|  .    
-                        /| } O.=.O { |\ ''') 
+                        /| } O.=.O { |\ ''') or None
+
+    exit = input("Bye!") or None
