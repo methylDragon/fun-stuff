@@ -59,12 +59,12 @@ def binary_count_up(target):
         print("\nOk! Fetching binary numbers:")
 
         # Print 0 to begin with
-        print(0)
+        print("{:0{slots}d}".format(0, slots = len(target)))
         count += 1
         
         while str(current).zfill(len(target)) < target:
             current = bin_add(current,1)
-            print(current)
+            print("{:0{slots}d}".format(int(current, 10), slots = len(target)))
             count += 1
             
         # Report summary
@@ -76,7 +76,7 @@ def binary_count_up(target):
         if all((i == "0" or i == "1") for i in target):
     
             # Initialise binary list (starting with 0)
-            number_list = [0]
+            number_list = ["{:0{slots}d".format(0, slots = len(target))]
 
             # Increment iterator until it reaches target
 
@@ -84,9 +84,9 @@ def binary_count_up(target):
             while str(current).zfill(len(target)) < target:
                 # Increment iterator
                 current = bin_add(current, 1)
-
+                current_str = ("{:0{slots}d}".format(int(current, 10), slots = len(target)))
                 # Append iterator
-                number_list.append(current)
+                number_list.append(current_str)
 
         # If input is not valid
         else:
@@ -95,7 +95,7 @@ def binary_count_up(target):
             return
 
         # Return list of binary numbers leading up to and including target
-        return number_list
+        return #number_list
 
 # =============================================================================
 #  CHECK IF RUN STAND-ALONE
