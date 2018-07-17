@@ -34,7 +34,9 @@ Use it in Linux!
 
 `$ cowsay -ls` Find the cowsay add-on directory
 
- `$ sudo cp <dir>/methyldragon.cow <add-on dir>` Copy methylDragon in!
+`$ sudo cp <dir>/methyldragon.cow <add-on dir>` Copy methylDragon in!
+
+`$ sudo cp <dir>/methyldragon.cow <add-on dir>` Copy the half methyl in as well!!
 
 
 
@@ -56,5 +58,31 @@ Use it in Linux!
          \|\|\/-""-""-\/|/|/
                  ______/ /
                  '------ 
+```
+
+`$ cowsay -f methylhalf I\m usable in cowsay!`
+
+```
+ _______________________
+< I'm usable in cowsay! >
+ -----------------------
+          \           
+           \   .     .
+            .  |\-^-/|  .    
+           /| } O.=.O { |\
+```
+
+You can even make me think!
+
+`$ cowthink -f methylhalf I\m usable in cowsay?!`
+
+```
+ _______________________
+< I'm usable in cowsay?! >
+ -----------------------
+          o           
+           o   .     .
+            .  |\-^-/|  .    
+           /| } O.=.O { |\
 ```
 
