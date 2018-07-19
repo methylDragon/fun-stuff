@@ -42,7 +42,7 @@ Use it in Linux!
 
 ### Invoking methylDragon
 
-`$ cowsay -f methyldragon I\m usable in cowsay!`
+`$ cowsay -f methyldragon I\'m usable in cowsay!`
 
 ```
  _______________________
@@ -60,7 +60,7 @@ Use it in Linux!
                  '------ 
 ```
 
-`$ cowsay -f methylhalf I\m usable in cowsay!`
+`$ cowsay -f methylhalf I\'m usable in cowsay!`
 
 ```
  _______________________
@@ -74,12 +74,12 @@ Use it in Linux!
 
 You can even make me think!
 
-`$ cowthink -f methylhalf I\m usable in cowsay?!`
+`$ cowthink -f methylhalf I\'m usable in cowsay?!`
 
 ```
- _______________________
+ ________________________
 < I'm usable in cowsay?! >
- -----------------------
+ ------------------------
           o           
            o   .     .
             .  |\-^-/|  .    
