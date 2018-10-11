@@ -6,6 +6,7 @@
   title_hide_sizetext = True
   title_receive_bg_color = "#ff0002"
   title_transmit_bg_color = "#b27300"
+  geometry_hinting = False
 [keybindings]
 [layouts]
   [[default]]
