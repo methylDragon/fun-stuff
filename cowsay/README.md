@@ -36,7 +36,7 @@ Use it in Linux!
 
 `$ sudo cp <dir>/methyldragon.cow <add-on dir>` Copy methylDragon in!
 
-`$ sudo cp <dir>/methyldragon.cow <add-on dir>` Copy the half methyl in as well!!
+`$ sudo cp <dir>/methylhalf.cow <add-on dir>` Copy the half methyl in as well!!
 
 
 
