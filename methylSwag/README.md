@@ -30,9 +30,9 @@ Comes with handy python script to invoke it!
 ```
 
 ```
-                            .     .
-                         .  |\-^-/|  .    
-                        /| } O.=.O { |\  
+                             .     .
+                          .  |\-^-/|  .
+                         /| } O.=.O { |\
 ```
 
 ```
