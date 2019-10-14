@@ -44,6 +44,7 @@
 [methylDragon]
 [profiles]
   [[default]]
+    scrollback_infinite = True
     background_color = "#292929"
     background_darkness = 0.54
     background_image = ~/.config/terminator/Wallpapers/139192-3d-dragon-free-hd-backgrounds-download-hd-2560x1600.jpg
